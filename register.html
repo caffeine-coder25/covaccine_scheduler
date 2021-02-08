@@ -5,26 +5,26 @@
     <body>
         <form>
             <h1>Register yourself for Vaccination</h1>
-            First Name: <input type="text"> <br>
-            Last Name: <input type="text"> <br>
-            Email: <input type="email" required> <br>
-            Password: <input type="password" min="8"> <br>
-            Birthday: <input type="date"> <br>
+            First Name: <input type="text" name="firstname"> <br>
+            Last Name: <input type="text" name="lastname"> <br>
+            Email: <input type="email" required name="email"> <br>
+            Password: <input type="password" min="8" name="password"> <br>
+            Age: <input type="date" name="age"> <br>
             Gender: <br>
             Male <input type="radio" name="gender"> <br>
             Female <input type="radio" name="gender"> <br>
             Other <input type="radio" name="gender"> <br>
             Health Conditions: <br>
-            <input type="checkbox"> Lung Problems <br>
-            <input type="checkbox"> Heart Disease <br>
-            <input type="checkbox"> Diabetes <br>
-            <input type="checkbox"> Obesity <br>
-            <input type="checkbox"> Cancer <br>
-            <input type="checkbox"> HIV/AIDS <br>
-            <input type="checkbox"> Chronic kidney or Liver Disease <br>
+            <input type="checkbox" name="lungproblems"> Lung Problems <br>
+            <input type="checkbox" name="heartdisease"> Heart Disease <br>
+            <input type="checkbox" name="diabetes"> Diabetes <br>
+            <input type="checkbox" name="obesity"> Obesity <br>
+            <input type="checkbox" name="cancer"> Cancer <br>
+            <input type="checkbox" name="hiv/aids"> HIV/AIDS <br>
+            <input type="checkbox" name="chronickidneyorliverdisease"> Chronic kidney or Liver Disease <br>
             Have you or your family been infected by COVID-19 before?:
             <select>
-                <option value="yes">Yes</option>
+                <option value="yes" name="yes">Yes</option>
                 <option value="no">No</option> 
             </select>
             <br>
