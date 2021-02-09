@@ -1,0 +1,18 @@
+header{
+    text-align: center;
+    /* border: 5px solid black; */
+}
+
+.form{
+    line-height: 30px;
+}
+
+#heading{
+    text-align: center;
+}
+
+body{
+    background-color: cyan;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
