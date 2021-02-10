@@ -1,10 +1,24 @@
 const express = require('express');
+const bodyParser = require('body-parser')
 
 const app = express();
+app.set('view engine', 'ejs');
 
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+ 
+// parse application/json
+app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send("hello backend home")
+    res.render('index')
+});
+app.get('/form', (req, res) => {
+    res.render('form')
+});
+app.post('/', (req, res) => {
+    const postBody = req.body;
+    res.render('thanks', {postBody})
 });
 app.get('/about', (req, res) => {
     res.send("hello backend about")
