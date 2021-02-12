@@ -21,9 +21,9 @@ body{
 }
 
 .info{
-    border:5px solid #999999;
-  color:#6f6f6f;
-  font-size:10px;
+    border:8px solid #000000;
+  color:#ffffff;
+  font-size:14px;
   width:100%;
   position: relative;
   display: inline-block;
