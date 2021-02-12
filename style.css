@@ -21,7 +21,8 @@ body{
 }
 
 .bg{
-  width:100%;
+  position: relative;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -29,10 +30,12 @@ body{
     border:8px solid #000000;
   color: #ffffff;
   font-size:14px;
-  width:100%;
-  position: relative;
-  display: inline-block;
-  height: auto;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
 }
 
 .footer {
