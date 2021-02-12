@@ -21,7 +21,7 @@ body{
 }
 
 .bg{
-  background-size: auto;
+  background-size: 800px 400px;
   padding: 25px;
   background-repeat: no-repeat;
 }
