@@ -20,7 +20,13 @@ body{
     font-weight: bold; */
 }
 
-.info{
+.bgimg{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bgimg.info{
     border:8px solid #000000;
   color: #ffffff;
   font-size:14px;
