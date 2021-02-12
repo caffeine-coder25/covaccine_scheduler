@@ -22,6 +22,7 @@ body{
 
 .bg{
   width: 100%;
+  background-size: auto;
   margin: 0 auto;
 }
 
